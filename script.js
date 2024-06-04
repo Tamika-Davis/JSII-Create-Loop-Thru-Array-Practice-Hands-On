@@ -1,12 +1,12 @@
 var awesomeBirds = ["Bluebird", "Roadrunner", "Desert Dove", "Pigeon"];
 
-    for (let i = 0; i < awesomeBirds.lenght; i++) {
+    for (var i = 0; i < awesomeBirds.lenght; i++) {
     if (awesomeBirds[i] === "Bluebird") {
-        alert("Bluebirds are so beautiful");
+       console.log("Bluebirds are so beautiful");
 
     }
     else {
-       alert("Not as beautiful as Bluebirds");
+      console.log("Not as beautiful as Bluebirds");
 
     }
 }
